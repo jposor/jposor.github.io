@@ -1,4 +1,4 @@
-# Inferring Causality in Actions of Cooperative Agent
+# Inferring Causality in Actions of Cooperative Agents
 
 {% include alert.html text="This post is in process" %}
 
