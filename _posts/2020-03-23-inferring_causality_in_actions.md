@@ -11,6 +11,8 @@ Comparisons of different algorithmic approaches to multi-agent systems often use
 
 ## Background
 
+### Dec-POMDP
+
 - **Dec-POMDP:** $$G = \langle A, S, U, \mathbb{T}, O, \mathbb{O}, R, h, \gamma \rangle$$.
 - **Agents:** $$A = \{1,\dots,n\}$$
 - **Global State:** $$s \in S$$  
