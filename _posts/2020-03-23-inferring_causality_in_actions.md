@@ -11,7 +11,14 @@ Comparisons of different algorithmic approaches to multi-agent systems often use
 
 ## Background
 
-### Dec-POMDP 
+### Dec-POMDP
+    @book{oliehoek_concise_nodate,
+      title={A concise introduction to decentralized {POMDPs}},
+      author={Oliehoek, Frans A and Amato, Christopher and others},
+      volume={1},
+      year={2016},
+      publisher={Springer}
+    }
 
 - **Dec-POMDP:** $$G = \langle A, S, U, \mathbb{T}, O, \mathbb{O}, R, h, \gamma \rangle$$.
 - **Agents:** $$A = \{1,\dots,n\}$$
