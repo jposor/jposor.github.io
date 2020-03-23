@@ -1,6 +1,6 @@
-# Inferring Causality in Actions of Cooperative Agent (
+# Inferring Causality in Actions of Cooperative Agent
 
-{% include alert.html text="In Progess" %}
+{% include alert.html text="This post is in process" %}
 
 1. TOC
 {:toc}
