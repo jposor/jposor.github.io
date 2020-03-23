@@ -18,7 +18,7 @@ Comparisons of different algorithmic approaches to multi-agent systems often use
 - **Global State:** $$s \in S$$  
 - **Individual Action:** $$u^a_t \in U$$ (at each time step $$t$$, each agent $$a \in A$$) 
 - **Joint Action:** All agents of a team form the joint action $$\mathbf{u} \in \mathbf{U} \equiv U^n$$. 
-- **Transition probability function:** $$\mathbb{T}$$ that specifies $$P(s_{t+1}\mids_t, \mathbf{u}):S \times \mathbf{U} \times S \rightarrow [0, 1]$$ (accorting to $$\mathbb{T}$$, the environment transitions into the next state $$s_{t+1}$$)
+- **Transition probability function:** $$\mathbb{T}$$ that specifies $$P(s_{t+1} \mid s_t, \mathbf{u}):S \times \mathbf{U} \times S \rightarrow [0, 1]$$ (accorting to $$\mathbb{T}$$, the environment transitions into the next state $$s_{t+1}$$)
 - **Individual observation:** For each state $$s_t$$, each agent $$a$$ receives an observation $$o^a_t \in O$$ according to the observation function.
 - **Observation function:** $$\mathbb{O}(s,a):S \times A \rightarrow O$$
 - **Reward function:** $$R(s, \mathbf{u}):S \times \mathbf{U} \rightarrow \mathbb{R}$$ is a reward function, shared among all agents. 
