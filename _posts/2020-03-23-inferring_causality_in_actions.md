@@ -1,6 +1,6 @@
 # Inferring Causality in Actions of Cooperative Agents
 
-{% include alert.html text="This post is in process" %}
+{% include alert.html text="This post is in progress" %}
 
 1. TOC
 {:toc}
