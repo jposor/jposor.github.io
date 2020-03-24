@@ -35,6 +35,22 @@ Comparisons of different algorithmic approaches to multi-agent systems often use
 - **Discount factor**: $$\gamma \in [\,0,1)\,$$ is a discount factor.
 - **Deterministic policy:** Each agent conditions a deterministic policy $$\pi^a: \overline{O}^a \rightarrow U$$ on its observation history $$\overline{o}^a_t = (o^a_0,\dots,o^a_t)$$.
 
+### RJAL
+        @article{article,
+        author = {Posor, Jorrit and Belzner, Lenz and Knapp, Alexander},
+        year = {2020},
+        month = {01},
+        pages = {79-84},
+        title = {Joint Action Learning for Multi-Agent Cooperation using Recurrent Reinforcement Learning},
+        volume = {4},
+        journal = {Digitale Welt},
+        doi = {10.1007/s42354-019-0239-y}
+        }
+        
+- **The input sequence:** At each time step $$t$$, the input sequence contains $$n$$ elements. For agent $$a \in A$$, $$(o^a_t, f^a_t)$$ is an element of the input sequence.
+- **Spatial individual observation:** $$o^a_t$$ is the spatial individual observation.
+- **Non-spatial individual features:** $$f^a_t = (u^a_{t-1}, r^a_{t-1}, a, p^a_t, Q^{a-1}_t)$$ where $$u^a_{t-1}$$ and $$r^a_{t-1}$$ denote the last action and last reward, respectively. $$a$$ is the agent ID and $$p^a$$ is the relative position. $$Q^{a-1}_t$$ denotes the Q-values calculated for agent $$a-1$$.
+
 ## Central Idea
 
 ## Experimental Setup
